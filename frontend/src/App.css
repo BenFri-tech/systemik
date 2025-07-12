@@ -1,0 +1,10 @@
+/* Allgemeine Stile für den App-Container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Brettoberfläche oben ausrichten */
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Leichter Hintergrund */
+  padding: 20px;
+  box-sizing: border-box;
+}
