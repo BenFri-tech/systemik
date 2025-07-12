@@ -2,9 +2,9 @@
 .App {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Brettoberfläche oben ausrichten */
+  align-items: flex-start;
   min-height: 100vh;
-  background-color: #f0f2f5; /* Leichter Hintergrund */
+  background-color: #f0f2f5;
   padding: 20px;
   box-sizing: border-box;
 }

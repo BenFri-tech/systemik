@@ -1,8 +1,8 @@
 .figure-container {
-  background-color: #ffffff; /* Weißer Hintergrund für die Figur */
-  border: 2px solid #a0a0a0; /* Sanfterer grauer Rand */
-  border-radius: 12px; /* Etwas runder */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Deutlicherer Schatten */
+  background-color: #ffffff;
+  border: 2px solid #a0a0a0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,15 +15,15 @@
 }
 
 .figure-container.selected-for-line {
-  border-color: #ff6b6b; /* Hellerer Rotton für Auswahl */
-  box-shadow: 0 0 15px rgba(255, 107, 107, 0.5); /* Leuchtender Schatten bei Auswahl */
+  border-color: #ff6b6b;
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.5);
 }
 
 .figure-head {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #556270; /* Dunkelgrau für den Kopf */
+  background-color: #556270;
   margin-bottom: 8px;
   border: 2px solid #333d47;
 }
@@ -31,17 +31,17 @@
 .figure-body {
   width: 60px;
   height: 70px;
-  background-color: #798897; /* Etwas helleres Grau für den Körper */
-  border-radius: 8px; /* Leicht abgerundet */
+  background-color: #798897;
+  border-radius: 8px;
   border: 2px solid #556270;
 }
 
 .figure-text-area {
-  width: calc(100% - 20px); /* Mehr Polsterung */
-  border: 1px solid #dcdcdc; /* Hellerer Rand */
+  width: calc(100% - 20px);
+  border: 1px solid #dcdcdc;
   text-align: center;
   resize: none;
-  background-color: #f5f5f5; /* Sehr heller Hintergrund für Textfeld */
+  background-color: #f5f5f5;
   outline: none;
   margin-top: 15px;
   padding: 8px;
@@ -55,11 +55,11 @@
   position: absolute;
   width: 18px;
   height: 18px;
-  background-color: #007bff; /* Blauer Griff */
-  bottom: -9px; /* Halb überlappend am Rand */
-  right: -9px; /* Halb überlappend am Rand */
+  background-color: #007bff;
+  bottom: -9px;
+  right: -9px;
   cursor: nwse-resize;
-  border-radius: 50%; /* Rund für eine bessere Optik */
+  border-radius: 50%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-  border: 2px solid white; /* Weißer Rand */
+  border: 2px solid white;
 } 

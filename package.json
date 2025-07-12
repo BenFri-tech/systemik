@@ -1,4 +1,13 @@
 {
+  "name": "systemik-board-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "install-deps": "cd frontend && npm install"
+  },
   "dependencies": {
     "@react-three/drei": "^10.5.0",
     "@react-three/fiber": "^9.2.0",
